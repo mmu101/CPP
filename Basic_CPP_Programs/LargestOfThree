@@ -1,0 +1,40 @@
+//cpp program to find the largest of three numbers
+
+#include <iostream>
+
+int main()
+{
+	int num1=0,num2=0,num3=0;
+	std::cout<<"Enter three numbers\n";
+	std::cin>>a>>b>>c;
+	if(a>b)
+	{
+		if(a>b)
+			std::cout<<"Num1 is the largest: "<<a<<std::endl;
+		else
+			std::cout<<"Num3 is the largest: "<<c<<std::endl;
+	}else{
+		if(a>b)
+			std::cout<<"Num2 is the largest: "<<b<<std::endl;
+		else
+			std::cout<<"Num3 is the largest: "<<c<<std::endl;
+	}
+}
+//Alternative approach
+// Finding largest using compound expressions
+//    if (a >= b && a >= c)
+//        cout << a;
+//    else if (b >= a && b >= c)
+//        cout << b;
+//    else
+//        cout << c;
+
+//	to find largest among three numbers using temporary variable
+//	temp=a;
+//	if(temp>b)
+//		temp=b;
+//	if(temp>c);
+//		temp=c;
+//	cout<<temp
+	
+  
